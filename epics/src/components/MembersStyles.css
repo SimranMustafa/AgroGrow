@@ -1,0 +1,97 @@
+.members{
+    margin: 4rem 6rem;
+    color: #2a2a2a;
+}
+
+.members h1{
+  font-size: 2rem;
+
+}
+
+.memberscard{
+    margin-top: 3rem;
+  
+  
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+
+
+.m-card{
+    width: 23.5%;
+    text-align: start;
+    box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.11);
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 1rem .8rem;
+    
+
+}
+
+.m-image{
+    height: 230px;
+    overflow: hidden;
+    border-radius: 7px;
+ 
+}
+
+.m-image img{
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out; 
+    border-radius: 7px;
+}
+
+.m-image:hover img{
+transform: scale(1.3);
+}
+
+.m-card h4{
+    font-size: 1.3rem;
+    padding: .9rem 0 .2rem 0;
+}
+
+.m-card p{
+    font-size: 0.8rem;
+    padding:  .2rem 0;
+}
+
+
+@media screen and (max-width: 850px)
+{
+    .members{
+        margin: 4rem 2rem;
+        
+
+    }
+    .membercard{
+        flex-direction: column;
+     
+    }
+
+    .m-card{
+        width: 50%;
+        margin-bottom: 1.5rem;
+        margin-left: 180px;
+        margin-right: 180px;
+    }
+
+    
+
+
+}
